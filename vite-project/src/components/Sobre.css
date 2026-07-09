@@ -32,7 +32,6 @@
 }
 
 
-/* Título */
 .sobre h1 {
     text-align: center;
     font-family: var(--font-heading);
@@ -42,7 +41,6 @@
 }
 
 
-/* Foto + descripción */
 .perfil {
     display: grid;
     grid-template-columns: 350px 1fr;
@@ -59,7 +57,7 @@
 }
 
 
-/* Texto */
+
 .descripcion p {
     font-family: var(--font-body);
     color: var(--color-text-light);
@@ -68,7 +66,6 @@
 }
 
 
-/* Botón */
 .descripcion button {
     margin-top: 25px;
     padding: 14px 30px;
@@ -89,7 +86,6 @@
 }
 
 
-/* Tarjetas */
 .caract {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -121,7 +117,6 @@
 }
 
 
-/* Títulos de tarjetas */
 .caract h2 {
     text-align: center;
     color: var(--color-primary);
@@ -130,7 +125,6 @@
 }
 
 
-/* Lista */
 .caract ul {
     list-style: none;
     padding: 0;
@@ -151,14 +145,12 @@
 }
 
 
-/* Iconos */
 .caract svg {
     color: var(--color-accent);
     font-size: 22px;
 }
 
 
-/* Responsive */
 @media(max-width:900px){
 
     .perfil {

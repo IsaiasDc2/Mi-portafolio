@@ -1,7 +1,9 @@
 .site-header {
 
     width: 100%;
-    padding: 20px 8%;
+    max-width: 100%;
+    
+    padding: 20px 40px;
 
     display: flex;
     justify-content: space-between;
@@ -12,6 +14,8 @@
     position: sticky;
     top: 0;
     z-index: 1000;
+
+    box-sizing: border-box;
 }
 
 
@@ -21,6 +25,8 @@
     font-size: 25px;
 
     font-family: var(--font-heading);
+
+    white-space: nowrap;
 }
 
 
@@ -28,6 +34,8 @@
 
     display: flex;
     gap: 30px;
+
+    align-items: center;
 }
 
 
@@ -47,10 +55,12 @@
 .nav-menu a:hover {
 
     color: var(--color-accent);
+
 }
 
 
-/* Botón hamburguesa */
+
+
 
 .menu-icon {
 
@@ -68,7 +78,6 @@
 
 
 
-/* Responsive celular */
 
 @media(max-width:768px){
 
@@ -76,18 +85,21 @@
     .site-header {
 
         padding: 20px;
+
     }
 
 
     .site-header h1 {
 
         font-size: 20px;
+
     }
 
 
     .menu-icon {
 
         display: block;
+
     }
 
 
@@ -110,10 +122,10 @@
 
         gap: 25px;
 
-
         transform: translateY(-150%);
 
         transition: .3s;
+
     }
 
 

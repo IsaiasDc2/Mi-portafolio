@@ -51,7 +51,6 @@
 
 
 
-/* Texto superior */
 
 .saludo {
 
@@ -67,7 +66,6 @@
 
 
 
-/* Nombre */
 
 .home h1 {
 
@@ -85,8 +83,6 @@
 
 
 
-/* Profesión */
-
 .home h2 {
 
     font-size: 32px;
@@ -99,7 +95,6 @@
 
 
 
-/* Descripción */
 
 .home p {
 
@@ -116,8 +111,6 @@
 }
 
 
-
-/* Botones */
 
 .botones {
 

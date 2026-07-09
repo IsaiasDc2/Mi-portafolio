@@ -28,7 +28,7 @@
 
 
 
-/* Tarjeta */
+
 
 .repo-card {
 
@@ -61,7 +61,6 @@
 
 
 
-/* Imagen */
 
 .repo-img {
 
@@ -75,7 +74,6 @@
 
 
 
-/* Contenido */
 
 .repo-contenido {
 
@@ -121,7 +119,6 @@
 
 
 
-/* Información */
 
 .repo-info {
 
@@ -141,7 +138,7 @@
 
 
 
-/* Botón */
+
 
 .repo-contenido a {
 
@@ -173,7 +170,6 @@
 
 
 
-/* Celular */
 
 @media(max-width:600px){
 

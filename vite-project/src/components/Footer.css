@@ -13,7 +13,7 @@
 }
 
 
-/* Enlaces */
+
 .f-link {
     display: flex;
     justify-content: center;
@@ -38,14 +38,14 @@
 }
 
 
-/* Iconos */
+
 .f-link svg {
     color: var(--color-accent);
     font-size: 20px;
 }
 
 
-/* Hover */
+
 .f-link a:hover {
     color: var(--color-accent);
     transform: translateY(-3px);
@@ -53,7 +53,7 @@
 
 
 
-/* Texto inferior */
+
 .footer p {
 
     width: 100%;
@@ -71,7 +71,7 @@
 
 
 
-/* Responsive */
+
 @media(max-width:768px){
 
     .f-link {
