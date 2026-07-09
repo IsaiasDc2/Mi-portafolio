@@ -1,0 +1,212 @@
+:root{
+    --color-primary: #1B2A4A;       
+    --color-primary-light: #2E5090;
+    --color-accent: #2ABFBF;       
+    --color-text: #333333;          
+    --color-text-light: #666666;    
+    --color-bg: #F7F9FA;            
+    --color-bg-alt: #EDF2F7;        
+    --color-white: #FFFFFF;
+    --color-border: #E2E8F0;        
+    --color-success: #27AE60;       
+    --color-warning: #F59E0B;
+    
+    --font-body: 'Segoe UI', 'Roboto', Arial, sans-serif;
+    --font-heading: 'Playfair Display', serif;
+    --font-code: 'Source Code Pro', monospace;
+
+    --shadow: 0 8px 20px rgba(0,0,0,0.08);
+
+    --radius: 15px;
+
+    --color-primary: #1B2A4A;
+    --color-white: #FFFFFF;
+
+}
+
+.sobre {
+    max-width: 1200px;
+    margin: auto;
+    padding: 60px 20px;
+    color: var(--color-text);
+}
+
+
+/* Título */
+.sobre h1 {
+    text-align: center;
+    font-family: var(--font-heading);
+    color: var(--color-primary);
+    font-size: 42px;
+    margin-bottom: 50px;
+}
+
+
+/* Foto + descripción */
+.perfil {
+    display: grid;
+    grid-template-columns: 350px 1fr;
+    gap: 50px;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+
+.perfil img {
+    width: 100%;
+    border-radius: 20px;
+    border: 3px solid var(--color-accent);
+}
+
+
+/* Texto */
+.descripcion p {
+    font-family: var(--font-body);
+    color: var(--color-text-light);
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+
+/* Botón */
+.descripcion button {
+    margin-top: 25px;
+    padding: 14px 30px;
+    border: none;
+    border-radius: 8px;
+
+    background: var(--color-primary);
+    color: var(--color-white);
+
+    font-size: 16px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+
+.descripcion button:hover {
+    background: var(--color-primary-light);
+}
+
+
+/* Tarjetas */
+.caract {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+
+.conocimientos,
+.habilidades,
+.metodo {
+
+    background: var(--color-white);
+
+    padding: 30px;
+    border-radius: 15px;
+
+    border: 1px solid var(--color-border);
+
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+
+    transition: .3s;
+}
+
+
+.conocimientos:hover,
+.habilidades:hover,
+.metodo:hover {
+    transform: translateY(-5px);
+}
+
+
+/* Títulos de tarjetas */
+.caract h2 {
+    text-align: center;
+    color: var(--color-primary);
+    margin-bottom: 25px;
+    font-family: var(--font-heading);
+}
+
+
+/* Lista */
+.caract ul {
+    list-style: none;
+    padding: 0;
+
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+
+.caract li {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+
+    color: var(--color-text-light);
+    font-size: 17px;
+}
+
+
+/* Iconos */
+.caract svg {
+    color: var(--color-accent);
+    font-size: 22px;
+}
+
+
+/* Responsive */
+@media(max-width:900px){
+
+    .perfil {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+
+    .perfil img {
+        width: 280px;
+        margin: auto;
+    }
+
+
+    .caract {
+        grid-template-columns: 1fr;
+    }
+
+}
+
+.caract li {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: var(--color-text-light);
+}
+
+
+.caract svg {
+    color: var(--color-accent);
+    font-size: 22px;
+}
+.btn-contacto {
+    display: inline-block;
+    margin-top: 25px;
+
+    padding: 14px 30px;
+
+    background: var(--color-primary);
+    color: var(--color-white);
+
+    text-decoration: none;
+    border-radius: var(--radius);
+
+    transition: .3s;
+}
+
+
+.btn-contacto:hover {
+    background: var(--color-primary-light);
+}

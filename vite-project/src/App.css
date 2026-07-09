@@ -1,0 +1,21 @@
+:root{
+    --color-primary: #1B2A4A;       
+    --color-primary-light: #2E5090;
+    --color-accent: #2ABFBF;       
+    --color-text: #333333;          
+    --color-text-light: #666666;    
+    --color-bg: #F7F9FA;            
+    --color-bg-alt: #EDF2F7;        
+    --color-white: #FFFFFF;
+    --color-border: #E2E8F0;        
+    --color-success: #27AE60;       
+    --color-warning: #F59E0B;
+    
+    --font-body: 'Segoe UI', 'Roboto', Arial, sans-serif;
+    --font-heading: 'Playfair Display', serif;
+    --font-code: 'Source Code Pro', monospace;
+}
+
+.app {
+  min-height: 100vh;
+}
