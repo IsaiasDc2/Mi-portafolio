@@ -51,7 +51,7 @@ function Home() {
           </Link>
 
 
-          <Link to="/proyectos" className="btn btn-secundario">
+          <Link to="/Repo" className="btn btn-secundario">
             Ver proyectos
           </Link>
 
